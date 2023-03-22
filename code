@@ -1,0 +1,10 @@
+let hex= Number(prompt("What is the HEX value to be converted? [Form: 0x10](if none press ENTER)"));
+let binary =Number(prompt("What is the BINARY value to be converted? [Form: 0b10](if none press ENTER)")); 
+let octal = Number(prompt("What is the OCTAL value to be converted? [Form: 0o10](if none press ENTER)"));
+
+console.log("hex: " + hex);
+console.log("binary: " + binary);
+console.log("octal: " + octal);
+
+//2023 JS. //Convert HEX, BINARY, OCTAL to DECIMAL -> 2.10 mins
+/*Suggested improvements to make . NO error checking, doesn't convert between each other */
